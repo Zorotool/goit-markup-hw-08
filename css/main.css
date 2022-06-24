@@ -396,7 +396,6 @@ a {
   margin-left: auto;
   margin-right: auto;
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/480/Hero_х1img_480.jpg);
-  background-image: url(../images/480/Hero_х1img_480.jpg);
 }
 @media screen and (min-width: 768px) {
   .overlay {
