@@ -27,7 +27,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 16px;
-  text-align: left;
+  text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;
@@ -55,6 +55,9 @@
     @media screen and (min-width: 1200px) {
       flex-wrap: nowrap;
     }
+    .features__title {
+      text-align: left;
+    }
 
     .features__item {
       width: 350px;
@@ -67,5 +70,12 @@
     .features__description {
       margin-bottom: 0;
     }
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .features {
+    margin-top: 94px;
+    margin-bottom: 94px;
   }
 }
