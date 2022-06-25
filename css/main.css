@@ -162,7 +162,7 @@ a {
   display: block;
   z-index: 2;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-direction: column;
 }
 
@@ -171,9 +171,6 @@ a {
   right: 0px;
 }
 
-.site-nav {
-  margin-bottom: 305px;
-}
 .site-nav__item {
   font-weight: 500;
   font-size: 40px;
@@ -555,11 +552,12 @@ a {
 @media screen and (min-width: 1200px) {
   .section-team {
     margin-top: 94px;
+    padding-top: 94px;
+    padding-bottom: 94px;
   }
 }
 
 .team {
-  margin-top: 50px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -618,11 +616,18 @@ a {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   max-width: 450px;
-  margin: 15px;
+}
+@media screen and (min-width: 768px) {
+  .team__item {
+    margin: 15px;
+  }
 }
 @media screen and (min-width: 768px) {
   .team__item {
     width: 354px;
+  }
+  .team__item .team__item {
+    margin: 15px;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -690,7 +695,7 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 }
 @media screen and (min-width: 1200px) {
   .section-title {
@@ -1353,6 +1358,9 @@ a {
     margin-bottom: 30px;
     margin-right: px;
   }
+  .filtres__item {
+    margin-bottom: 0px;
+  }
   .filtres__button {
     display: flex;
     border: none;
@@ -1450,7 +1458,7 @@ a {
   }
 
   .filtres {
-    margin-bottom: 34px;
+    margin-bottom: 50px;
   }
 
   .filtres__item:not(:last-child) {

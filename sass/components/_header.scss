@@ -84,7 +84,7 @@
     display: block;
     z-index: 2;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-direction: column;
   }
 }
@@ -95,7 +95,7 @@
 }
 
 .site-nav {
-  margin-bottom: 305px;
+  // margin-bottom: 305px;
   &__item {
     font-weight: 500;
     font-size: 40px;
